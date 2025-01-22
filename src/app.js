@@ -1,4 +1,5 @@
 require('dotenv').config();
+const { default: axios } = require('axios');
 const { startTokenLifecycle, getToken } = require('./tokenManager');
 
 (async () => {
